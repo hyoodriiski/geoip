@@ -13,6 +13,7 @@ var (
 	// Version is set at build time via ldflags
 	Version = "dev"
 
+	// Default config file changed to my preferred location
 	configFile = flag.String("config", "config.json", "Path to the configuration file")
 	listInput  = flag.Bool("list-input", false, "List all available input formats")
 	listOutput = flag.Bool("list-output", false, "List all available output formats")
@@ -25,6 +26,7 @@ func main() {
 		fmt.Fprintf(os.Stderr, "  geoip [options]\n\n")
 		fmt.Fprintf(os.Stderr, "Options:\n")
 		flag.PrintDefaults()
+		fmt.Fprintf(os.Stderr, "\nFor more info, see: https://github.com/Loyalsoldier/geoip\n")
 	}
 
 	flag.Parse()
