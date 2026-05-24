@@ -7,6 +7,7 @@
 > - Scheduled builds run on Mondays instead of Thursdays to get fresher data earlier in the week
 > - Mirror download links added in the releases section below for faster access
 > - Using `china-operator-ip` as the primary source for CN IP data (already upstream default, but pinned here for reference)
+> - Note: The `assets/hero.png` image may not exist in this fork; ignore any broken image below
 
 <div align="center">
 
@@ -38,10 +39,4 @@ This project releases various formats of GeoIP files automatically every Thursda
 
 - 中国大陆 IPv4 地址数据使用 [@gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip/blob/ip-lists/china.txt)
 - 中国大陆 IPv6 地址数据使用 [@gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip/blob/ip-lists/china6.txt)
-- 新增类别（方便有特殊需求的用户使用）：
-  - `geoip:cloudflare`（`GEOIP,CLOUDFLARE`）
-  - `geoip:cloudfront`（`GEOIP,CLOUDFRONT`）
-  - `geoip:facebook`（`GEOIP,FACEBOOK`）
-  - `geoip:fastly`（`GEOIP,FASTLY`）
-  - `geoip:google`（`GEOIP,GOOGLE`）
-  - `geoip:n
+- 新增类别（方便有特殊需
