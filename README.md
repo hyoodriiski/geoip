@@ -6,6 +6,7 @@
 > - Added local ISP IP ranges for my region
 > - Scheduled builds run on Mondays instead of Thursdays to get fresher data earlier in the week
 > - Mirror download links added in the releases section below for faster access
+> - Using `china-operator-ip` as the primary source for CN IP data (already upstream default, but pinned here for reference)
 
 <div align="center">
 
@@ -27,6 +28,8 @@
 
 This project releases various formats of GeoIP files automatically every Thursday, and provides a command line interface(CLI) tool for users to customize their own GeoIP files, including but not limited to V2Ray `dat` format file `geoip.dat`, MaxMind `mmdb` format file `Country.mmdb`, sing-box `SRS` format files, mihomo `MRS` format files, Clash ruleset files and Surge ruleset files.
 
+> **Fork note:** In this fork, scheduled builds run every **Monday** instead of Thursday.
+
 ## 与 MaxMind 官方 GeoIP 数据的区别
 
 本项目默认使用 [MaxMind GeoLite2 Country CSV 数据](https://github.com/Loyalsoldier/geoip/blob/release/GeoLite2-Country-CSV.zip)生成各个国家和地区的 GeoIP 文件。所有可供使用的国家和地区 geoip 类别（如 `geoip:cn`，两位英文字母表示国家和地区），请查看：[https://www.iban.com/country-codes](https://www.iban.com/country-codes)。
@@ -41,6 +44,4 @@ This project releases various formats of GeoIP files automatically every Thursda
   - `geoip:facebook`（`GEOIP,FACEBOOK`）
   - `geoip:fastly`（`GEOIP,FASTLY`）
   - `geoip:google`（`GEOIP,GOOGLE`）
-  - `geoip:netflix`（`GEOIP,NETFLIX`）
-  - `geoip:telegram`（`GEOIP,TELEGRAM`）
-  - `geoip:twitt
+  - `geoip:n
