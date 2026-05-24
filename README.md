@@ -5,6 +5,7 @@
 > **My customizations:**
 > - Added local ISP IP ranges for my region
 > - Scheduled builds run on Mondays instead of Thursdays to get fresher data earlier in the week
+> - Mirror download links added in the releases section below for faster access
 
 <div align="center">
 
@@ -42,9 +43,4 @@ This project releases various formats of GeoIP files automatically every Thursda
   - `geoip:google`（`GEOIP,GOOGLE`）
   - `geoip:netflix`（`GEOIP,NETFLIX`）
   - `geoip:telegram`（`GEOIP,TELEGRAM`）
-  - `geoip:twitter`（`GEOIP,TWITTER`）
-  - `geoip:tor`（`GEOIP,TOR`）
-
-## 下载地址与使用方法
-
-本项目发布的所有 GeoIP 文件，请查看 [release 分支](https://github.com/Loyalsoldier/geoip/tree/release)。以下是部分格式 GeoIP 文件
+  - `geoip:twitt
