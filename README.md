@@ -8,15 +8,11 @@
 > - Mirror download links added in the releases section below for faster access
 > - Using `china-operator-ip` as the primary source for CN IP data (already upstream default, but pinned here for reference)
 > - Note: The `assets/hero.png` image may not exist in this fork; ignore any broken image below
+> - Removed the Trendshift and DeepWiki badges below since they point to upstream stats, not this fork
 
 <div align="center">
 
-<a href="https://trendshift.io/repositories/5833" target="_blank"><img src="https://trendshift.io/api/badge/repositories/5833" alt="Loyalsoldier%2Fgeoip | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
-</div>
-
-<div align="center">
-<a href="https://deepwiki.com/Loyalsoldier/geoip" target="_blank"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki badge"></a> <a href="https://www.jsdelivr.com/package/gh/Loyalsoldier/geoip" target="_blank"><img src="https://data.jsdelivr.com/v1/package/gh/Loyalsoldier/geoip/badge?style=rounded" alt="jsdelivr stats badge"></a>
+<a href="https://www.jsdelivr.com/package/gh/Loyalsoldier/geoip" target="_blank"><img src="https://data.jsdelivr.com/v1/package/gh/Loyalsoldier/geoip/badge?style=rounded" alt="jsdelivr stats badge"></a>
 
 <a href="https://shields.io" target="_blank"><img src="https://img.shields.io/github/downloads/Loyalsoldier/geoip/total?logo=github" alt="GitHub Downloads badge (all assets, all releases)"></a> <a href="https://shields.io" target="_blank"><img src="https://img.shields.io/github/downloads/Loyalsoldier/geoip/latest/total?logo=github" alt="GitHub Downloads badge (all assets, latest release)"></a>
 </div>
@@ -38,5 +34,4 @@ This project releases various formats of GeoIP files automatically every Thursda
 另外，本项目对 MaxMind 官方 GeoIP 数据做了修改和新增：
 
 - 中国大陆 IPv4 地址数据使用 [@gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip/blob/ip-lists/china.txt)
-- 中国大陆 IPv6 地址数据使用 [@gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip/blob/ip-lists/china6.txt)
-- 新增类别（方便有特殊需
+- 中国大陆 IPv6 地址数据使用 [@gaoyifan/china-op
