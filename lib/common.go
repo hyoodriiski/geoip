@@ -73,6 +73,7 @@ func NormalizeName(name string) string {
 }
 
 // IsValidFormat returns true if the given format string is supported.
+// Comparison is case-insensitive, so "MMDB", "mmdb", and "Mmdb" all match.
 func IsValidFormat(format string) bool {
 	for _, f := range SupportedFormats {
 		if strings.EqualFold(f, format) {
@@ -83,8 +84,9 @@ func IsValidFormat(format string) bool {
 }
 
 // EnsureDir creates the directory at path if it does not already exist.
+// Uses permission 0755 so the output directory is readable by other tools.
 func EnsureDir(path string) error {
-	if err := os.MkdirAll(path, 0750); err != nil {
+	if err := os.MkdirAll(path, 0755); err != nil {
 		return fmt.Errorf("failed to create directory %q: %w", path, err)
 	}
 	return nil
