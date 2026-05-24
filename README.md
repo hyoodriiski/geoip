@@ -1,6 +1,10 @@
 # GeoIP 增强版：自由定制多种格式 GeoIP 文件
 
 > **Personal fork note:** I use this fork primarily for generating custom GeoIP files with additional local ISP data. The upstream project is maintained by [Loyalsoldier](https://github.com/Loyalsoldier/geoip).
+>
+> **My customizations:**
+> - Added local ISP IP ranges for my region
+> - Scheduled builds run on Mondays instead of Thursdays to get fresher data earlier in the week
 
 <div align="center">
 
@@ -43,13 +47,4 @@ This project releases various formats of GeoIP files automatically every Thursda
 
 ## 下载地址与使用方法
 
-本项目发布的所有 GeoIP 文件，请查看 [release 分支](https://github.com/Loyalsoldier/geoip/tree/release)。以下是部分格式 GeoIP 文件的下载地址：
-
-> 如果无法访问域名 `raw.githubusercontent.com`，可以使用第二个地址 `cdn.jsdelivr.net`。
-> 如果无法访问域名 `cdn.jsdelivr.net`，可以将其替换为 `fastly.jsdelivr.net`。
->
-> *.sha256sum 为校验文件。
-
-### V2Ray dat 格式文件
-
-> 适用于 [V
+本项目发布的所有 GeoIP 文件，请查看 [release 分支](https://github.com/Loyalsoldier/geoip/tree/release)。以下是部分格式 GeoIP 文件
