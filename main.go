@@ -61,5 +61,5 @@ func main() {
 		log.Fatalf("failed to run: %v", err)
 	}
 
-	log.Println("done")
+	log.Printf("done (version: %s)", Version)
 }
