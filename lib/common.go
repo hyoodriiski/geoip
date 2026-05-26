@@ -84,9 +84,9 @@ func IsValidFormat(format string) bool {
 }
 
 // EnsureDir creates the directory at path if it does not already exist.
-// Uses permission 0755 so the output directory is readable by other tools.
+// Uses permission 0750 instead of 0755 to avoid world-readable output files.
 func EnsureDir(path string) error {
-	if err := os.MkdirAll(path, 0755); err != nil {
+	if err := os.MkdirAll(path, 0750); err != nil {
 		return fmt.Errorf("failed to create directory %q: %w", path, err)
 	}
 	return nil
