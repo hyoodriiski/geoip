@@ -61,5 +61,6 @@ func main() {
 		log.Fatalf("failed to run: %v", err)
 	}
 
-	log.Printf("done (version: %s)", Version)
+	// Print a more informative completion message including the config file used
+	log.Printf("done (version: %s, config: %s)", Version, *configFile)
 }
