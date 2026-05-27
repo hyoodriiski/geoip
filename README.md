@@ -9,13 +9,7 @@
 > - Using `china-operator-ip` as the primary source for CN IP data (already upstream default, but pinned here for reference)
 > - Note: The `assets/hero.png` image may not exist in this fork; ignore any broken image below
 > - Removed the Trendshift and DeepWiki badges below since they point to upstream stats, not this fork
-
-<div align="center">
-
-<a href="https://www.jsdelivr.com/package/gh/Loyalsoldier/geoip" target="_blank"><img src="https://data.jsdelivr.com/v1/package/gh/Loyalsoldier/geoip/badge?style=rounded" alt="jsdelivr stats badge"></a>
-
-<a href="https://shields.io" target="_blank"><img src="https://img.shields.io/github/downloads/Loyalsoldier/geoip/total?logo=github" alt="GitHub Downloads badge (all assets, all releases)"></a> <a href="https://shields.io" target="_blank"><img src="https://img.shields.io/github/downloads/Loyalsoldier/geoip/latest/total?logo=github" alt="GitHub Downloads badge (all assets, latest release)"></a>
-</div>
+> - Removed the jsdelivr and GitHub download count badges since they reflect upstream numbers, not this fork
 
 <p align="center">
   <img src="./assets/hero.png" alt="GeoIP project hero image">
